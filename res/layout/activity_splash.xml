@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/logonameimg"
+        android:layout_width="438.10dp"
+        android:layout_height="133.90dp"
+        android:gravity="center"
+        android:text="𝓥𝓲𝓭𝓮𝓸 𝓒𝓪𝓵𝓵𝓲𝓷𝓰 𝓐𝓹𝓹"
+        android:textColor="@color/my_primary"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/logoimg2"
+        android:layout_width="351dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="164dp"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/videocallsp" />
+
+    <TextView
+        android:id="@+id/owntwo"
+        android:layout_width="325dp"
+        android:layout_height="29dp"
+        android:gravity="center"
+        android:text="𝕄𝕒𝕕𝕖 𝕓𝕪 𝓡𝓾𝓹𝓪𝓶 𝓜𝓾𝓴𝓱𝓮𝓻𝓳𝓮𝓮"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
